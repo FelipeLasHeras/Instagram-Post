@@ -1,0 +1,89 @@
+.post{
+  background: white;
+  height: 900px;
+  width: 800px;
+  margin: auto;
+}
+
+/** TITLE STYLES */
+.post .title-row {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.post .title-row .left-side,
+.post .title-row .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.post .title-row .icon-container {
+    display: flex;
+    justify-content: center;
+    min-width: 50px;
+}
+
+.post .title-row .icon-container svg {
+    height: auto;
+    margin-left: 7px;   
+    width: 22px;
+}
+
+.post .title-row .right-side svg {
+    height: auto;
+    width: 28px;
+}
+
+.post .title-row .title-text-area .subtitle {
+    margin-top: -4px;
+}
+
+/** IMAGE STYLES */
+.post .img-box img {
+    height: 500px;
+    width: 100%;
+} 
+
+/** BUTTONS AREA */
+.post .buttons-area {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.post .buttons-area .left-side,
+.post .buttons-area .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.post .text-area {
+    padding: 12px;
+}
+
+.top svg{
+  display: flex;
+  align-items: flex-end;
+}
+#svg-12{
+  position: fixed;
+  top: 1px;
+  left: 490px;
+  right: 20px;
+  bottom: 5px;
+  height: 40px;
+  width: 40px;
+
+}
+
+h1 img{
+  margin: auto;
+  position: relative;
+  padding: 100px;
+
+} 
