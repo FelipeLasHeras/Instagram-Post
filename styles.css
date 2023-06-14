@@ -30,6 +30,7 @@
     height: auto;
     margin-left: 7px;   
     width: 22px;
+    
 }
 
 .post .title-row .right-side svg {
@@ -60,10 +61,19 @@
 .post .buttons-area .right-side {
     display: flex;
     align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    
 }
 
 .post .text-area {
     padding: 12px;
+}
+
+
+/* .top{
+ display: flex;
+
 }
 
 .top svg{
@@ -86,4 +96,4 @@ h1 img{
   position: relative;
   padding: 100px;
 
-} 
+} */
